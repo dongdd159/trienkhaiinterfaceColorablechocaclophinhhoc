@@ -7,7 +7,7 @@ public class ColorableTest {
         for (int i=0;i<shapes.length;i++) {
             if (shapes[i] instanceof Colorable){
                 ((Colorable) shapes[i]).howToColor();
-            }else if (shapes[i] instanceof getShapeArea){
+            }else{
                 System.out.println(shapes[i].getArea());
             }
         }
